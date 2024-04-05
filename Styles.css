@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner section */
+.banner {
+  background-image: url('images/Party.jpg');
+  
+  padding: 50px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 60px;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  margin-bottom: 20px;
+  color: #ff8fab
+}
+
+.banner p {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #6c757d
+}
+
+.btn-blue {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 20px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #4e4e4e;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+}
+
+.btn-blue:hover {
+  background-color: #ffe5ec;
+}
+
+/* Unique Value Propositions section */
+.uvps {
+  background-color: #ffffff
+  padding: 50px 0;
+}
+
+.uvps ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.uvps li {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #ffe5ec;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.uvps li:hover {
+  transform: translateY(-5px);
+}
+
+.uvps li strong {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #4e4e4e; 
+}
+
+.uvps li p {
+  font-size: 16px;
+  color: #7a7a7a; 
+}
+
+/* Featured products section */
+.featured-products {
+  background-color: #ffe5ec;
+  padding: 50px 0;
+}
+
+.featured-products h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #4e4e4e;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: calc(30% - 20px);
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #ffffff; 
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure relative positioning for absolute positioning of buttons */
+}
+
+.product img {
+  width: 100%;
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+  margin-bottom: 20px;
+}
+
+.product h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #4e4e4e;
+}
+
+.product p {
+  font-size: 16px;
+  color: #7a7a7a; 
+}
+
+
+/* Testimonials section */
+.testimonials {
+  background-color: #ffffff; 
+  padding: 50px 0;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #4e4e4e; 
+}
+
+.testimonial {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #ffe5ec;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial blockquote {
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #7a7a7a; 
+}
+
+.testimonial cite {
+  font-weight: bold;
+  color: #4e4e4e; 
+}
+
+/* Call to Action section */
+.cta {
+  background-color: #ffe5ec; 
+  padding: 50px 0;
+  text-align: center;
+}
+
+.cta p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #4e4e4e;
+}
+
+.btn-blue:active,
+.btn-blue:focus {
+  background-color: #ffe5ec; 
+  outline: none;
+  box-shadow: none;
+}
